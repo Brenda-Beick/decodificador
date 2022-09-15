@@ -1,7 +1,31 @@
 body {
-    background: #d8e2d5;
+    background: #fcdbfcd0;
+    font-family: 'Ms Madi', cursive;
 }
 
 .pasta-code {
     padding: 40px;
+}
+
+    #texto-principal {
+    margin-left: 80px;
+    background: #e7c9de;
+}
+
+.button-codificar {
+    background: #e7c9de;
+    position: relative;
+    top: 50px;
+    right:600px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+}
+
+.button-decodificador {
+    background: #e7c9de;
+    position: relative;
+    top: 50px;
+    right: 500px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
 }
