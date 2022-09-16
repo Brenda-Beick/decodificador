@@ -7,6 +7,11 @@ body {
     padding: 40px;
 }
 
+.atencao {
+    font-size: 25px;
+    margin-left: 70px;
+}
+
     #texto-principal {
     margin-left: 80px;
     background: #e7c9de;
@@ -54,4 +59,10 @@ body {
 .rodape {
     background: #e7c9de;
     text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.criacao {
+    font-size: 25px;
 }
