@@ -20,7 +20,7 @@ function cripto (stringcriptografada) {
 
 function btndescriptofar () {
     const textodescriptogrado = descripto(textoprincipal.value);
-    textosecundario.value = textodescriptogrado;
+    textodescriptogrado.value = textodescriptogrado;
 }
 
 function descripto (stringdescriptografada) {
@@ -34,3 +34,9 @@ function descripto (stringdescriptografada) {
     }
     return stringdescriptografada;
 }
+
+ function btntextocopiado () {
+    const copiartexto = document.querySelector("textoprincipal");
+    navigator.clipboard.writeText(copiartexto.value);
+    copiartexto.value = textoprincipal.value
+ }
