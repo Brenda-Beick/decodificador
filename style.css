@@ -28,6 +28,10 @@ body {
     box-shadow: 5px 5px;
 }
 
+.button-codificar:active {
+    padding: 10px 40px 10px 40px;
+}
+
 .button-decodificador {
     background: #e7c9de;
     position: relative;
@@ -36,6 +40,10 @@ body {
     padding: 15px 50px 15px 50px;
     border-radius: 10px;
     box-shadow: 5px 5px;
+}
+
+.button-decodificador:active {
+    padding: 10px 40px 10px 40px;
 }
 
 #texto-secundario {
@@ -56,6 +64,10 @@ body {
     box-shadow: 5px 5px;
 }
 
+.button-copiar:active {
+    padding: 10px 40px 10px 40px;
+}
+
 .rodape {
     background: #e7c9de;
     text-align: center;
@@ -65,4 +77,53 @@ body {
 
 .criacao {
     font-size: 25px;
+}
+
+@media screen and (max-width:420px) {
+    canvas {
+        margin 0 auto;
+        width: 90vw;
+    }
+
+    #texto-principal {
+        width: 100%;
+    }
+
+    .button-codificar {
+        position: relative;
+        padding: 15px 20px 15px 20px;
+        top: 20px;
+        left: 100px;
+    }
+    .button-decodificador {
+        position: relative;
+        padding: 15px 20px 15px 20px;
+        top: 20px;
+        left: 140px;
+    }
+    
+    #texto-secundario {
+        position: static;
+        width: 70%;
+        margin-top: 35px;
+    }
+    .button-copiar {
+        position: relative;
+        right: 120px;
+        top: 33px
+        padding: 15px 20px 15px 20px;
+      
+        
+    }
+
+    .rodape {
+        position: relative;
+        top: 20vw;
+    }
+
+    .criacao {
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+    }
 }
