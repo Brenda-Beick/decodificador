@@ -109,10 +109,9 @@ body {
     }
     .button-copiar {
         position: relative;
-        right: 120px;
-        top: 33px
         padding: 15px 20px 15px 20px;
-      
+        top: 40px;
+        left: 90px;
         
     }
 
@@ -122,7 +121,7 @@ body {
     }
 
     .criacao {
-        font-size: 15px;
+        font-size: 1.50em;
         text-align: center;
         margin: auto;
     }
