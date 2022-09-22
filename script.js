@@ -36,7 +36,10 @@ function descripto (stringdescriptografada) {
 }
 
  function btntextocopiado () {
- // const copiartexto = document.querySelector("textoprincipal");//
-    navigator.clipboard.writeText(textoprincipal.value).then(resp => console.log(resp))
+    const copiartexto = document.querySelector("textoprincipal");
+    const copiado = copiartexto.value;
+    navigator.clipboard.writeText(copiado);
+    Element.clasList.add("ativo");
+    setTimeout(() => Element.clasList.remove("ativo"), 1500);
     textoprincipal.value =""
  }
