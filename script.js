@@ -1,7 +1,7 @@
 const textoprincipal = document.querySelector("#texto-principal");
 const textosecundario = document.querySelector("#texto-secundario");
 
-function btncriptografar () {
+function btncriptografar() {
     const textocriptografado = cripto(textoprincipal.value);
     textosecundario.value = textocriptografado;
 }
