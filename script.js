@@ -20,18 +20,18 @@ function cripto (stringcriptografada) {
 
 function btndescriptofar () {
     const textodescriptogrado = descripto(textoprincipal.value);
-    textodescriptogrado.value = textodescriptogrado;
+    textosecundario.value = textodescriptogrado;
 }
 
 function descripto (stringdescriptografada) {
     let matrizcodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]];
     stringdescriptografada = stringdescriptografada.toLowerCase();
 
-    for(let i = 0; i< matrizcodigo.length;i++) {
+    for(let i = 0; i < matrizcodigo.length;i++) {
         if(stringdescriptografada.includes(matrizcodigo[i][1])) {
             stringdescriptografada = stringdescriptografada.replaceAll(matrizcodigo[i][1],matrizcodigo[i][0])
         }
-    }
+
     return stringdescriptografada;
 }
 
