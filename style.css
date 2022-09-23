@@ -81,37 +81,39 @@ body {
 
 @media screen and (max-width:420px) {
     canvas {
-        margin 0 auto;
+        margin: 0 auto;
         width: 90vw;
     }
 
     #texto-principal {
-        width: 100%;
+        position: relative;
+        width: 90%;
+        right: 60px;
     }
 
     .button-codificar {
         position: relative;
         padding: 15px 20px 15px 20px;
         top: 20px;
-        left: 100px;
+        left: 40px;
     }
     .button-decodificador {
         position: relative;
         padding: 15px 20px 15px 20px;
         top: 20px;
-        left: 140px;
+        left: 70px;
     }
     
     #texto-secundario {
         position: static;
-        width: 70%;
+        width: 90%;
         margin-top: 35px;
     }
     .button-copiar {
         position: relative;
         padding: 15px 20px 15px 20px;
-        top: 40px;
-        left: 90px;
+        top: 60px;
+        left: 0;
         
     }
 
