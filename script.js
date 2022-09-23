@@ -1,9 +1,9 @@
 const textoprincipal = document.querySelector("#texto-principal");
 const textosecundario = document.querySelector("#texto-secundario");
 
-function btncriptofar () {
-    const textocriptogrado = cripto(textoprincipal.value);
-    textosecundario.value = textocriptogrado;
+function btncriptografar () {
+    const textocriptografado = cripto(textoprincipal.value);
+    textosecundario.value = textocriptografado;
 }
 
 function cripto (stringcriptografada) {
@@ -18,9 +18,9 @@ function cripto (stringcriptografada) {
     return stringcriptografada;
 }
 
-function btndescriptofar () {
-    const textodescriptogrado = descripto(textoprincipal.value);
-    textosecundario.value = textodescriptogrado;
+function btndescriptografar () {
+    const textodescriptografado = descripto(textoprincipal.value);
+    textosecundario.value = textodescriptografado;
 }
 
 function descripto (stringdescriptografada) {
