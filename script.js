@@ -24,7 +24,7 @@ function btndescriptografar() {
 }
 
 function descripto (stringdescriptografada) {
-    let matrizcodigo = [["a","ai"],["e","enter"],["i","imes"],["o","ober"],["u","ufat"]];
+    let matrizcodigo = [["i","imes"],["e","enter"],["a","ai"],["o","ober"],["u","ufat"]];
     stringdescriptografada = stringdescriptografada.toLowerCase();
 
     for(let i = 0; i< matrizcodigo.length;i++) {
